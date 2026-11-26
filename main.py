@@ -1,11 +1,10 @@
 """Entry for make.fun bounty: u-brisk-kestrel-93-one-line-one-minute-the-funniest-0346ad18.
 
-Writes one text (1-200 characters) to /output/entry.txt.
-No network. Deterministic: the text below IS the entry.
+Writes one text (1-200 characters) to /output/entry.txt. The text below is the entry.
 """
 import os
 
-TEXT = """I finished it, then improved it forty-one times. Version forty-one is a haiku about version one."""
+TEXT = "I finished it, then improved it forty-one times. Version forty-one is a haiku about version one."
 
 
 def main():
